@@ -6,11 +6,11 @@ html {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+}
 body{
     padding:0;
     margin-left: -30%;
     margin-top: 0;
-}
 }
 .logo{
     position: relative;
@@ -26,7 +26,7 @@ body{
     background: #ccc9ce; /* Light purple background */
     border-radius: 40px;
     width: 100%px;
-    height: 700px;
+    height: 550px;
     margin: auto;
     flex-direction: column;
     align-items: center;
@@ -35,50 +35,52 @@ body{
 }
 
 input[type=text]{
-    font-size: 40px;
+    font-size: 30px;
     color:#d1ccd3;
-    padding: 20px;
-    width: 100%;
+    padding: 10px;
+    width: 102%;
     border-style: dotted;
     border: #d1ccd3;;
     border-radius: 30px;
     display: block;
 }
 input[type=email]{
-    font-size: 40px;
+    font-size: 30px;
     color:#d1ccd3;
-    padding: 20px;
-    width: 100%;
+    padding: 10px;
+    width: 102%;
     border-style: dotted;
     border: #d1ccd3;;
     border-radius: 30px;
     display: block;
 }
 input[type=password]{
-    font-size: 40px;
+    font-size: 30px;
     color:#d1ccd3;
-    padding: 20px;
-    width: 100%;
+    padding: 10px;
+    width: 102%;
     border-style: dotted;
     border: #000000;
     border-radius: 30px;
     display: block;
 }
 .input-group {
-    margin-bottom: 15px;
     text-align: left;
-    border-radius: 5%;
-    margin-top: 30px;
-    padding-bottom: 10px;
+    border-radius: 5%;   
+    margin-bottom: 15px;
+    padding-top: 5px;
+    /* margin-top: 30px;
+    padding-bottom: 10px; */
 }
 
 .input-group label {
-    font-size: 40px;
+    padding-top: 5px;
+    font-size: 30px;
     font-weight: 900;
     color: #431464;
     display: block;
-    margin-top: 30px;
-    margin-bottom: 5px;
+    /* margin-top: 30px;
+    margin-bottom: 5px; */
 }
 .login-button {
     display: block;
@@ -110,11 +112,34 @@ input[type=password]{
     align-self: center;
     margin-left: 35%;
 }
-
 .or-divider {
-    margin: 1rem 0;
     color: #999;
     font-size: 0.9rem;
+    padding: 0%;
+    margin:0 0 0 52%;
+}
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+.gg,
+.fb {
+    margin-left: 5%;
+    width: 200px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #00000023;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 450ms;
+}
+.gg:hover,
+.fb:hover {
+    background-color: #00000036;
 }
 .bg-phone{
     position: absolute;

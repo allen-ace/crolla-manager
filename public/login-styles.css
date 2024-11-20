@@ -6,11 +6,11 @@ html {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+}
 body{
     padding:0;
     margin-left: -30%;
     margin-top: 0;
-}
 }
 .logo{
     position: relative;

@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('login');
+    return view('index');
 });
 
 Route::get('/signup', function () {
@@ -12,3 +12,4 @@ Route::get('/signup', function () {
 Route::get('/login', function () {
     return view('login');
 });
+

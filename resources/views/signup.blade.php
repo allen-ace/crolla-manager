@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup</title>
+    <title>Welcome to Crolla!</title>
     <link rel="stylesheet" href="signup-styles.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
         <div class="login-box">
             <form action="" method="POST">
                 <div class="input-group">
-                    <label for="name">Name</label>
+                    <label for="name">USERNAME</label>
                     <input type="text" id="name" name="name" required>
                 </div>
                 <div class="input-group">
@@ -25,10 +25,14 @@
                 </div>
                 <button type="submit" class="login-button">SIGN UP</button>
             </form>
-            <p class="sign-up-text">Already have an account? <a href="{{ url('/login') }}">Sign Up</a></p>
-            </form>
-            <p class="or-divider">OR</p>
-            <button type="button" class="google-btn">Sign Up with Google</button>
+                <p class="sign-up-text">Already have an account? <a href="{{ url('/login') }}">Log in</a></p>
+                </form>
+                        <p class="or-divider">OR</p>
+
+                <div class="social">
+                    <div class="gg"><i class="bi bi-google"></i>Google</div>
+                    <div class="fb"><i class="bi bi-facebook"></i>Facebook</div>
+                </div>
         </div>
             <img class="bg-phone" src="{{ asset('Crolla/Assets/cellphone bg.png')}}" alt="Crolla Pencil">
             <img class="img-btmright" src="{{ asset('Crolla/Assets/crow mascot with pencil.png')}}" alt="Crolla Pencil">
